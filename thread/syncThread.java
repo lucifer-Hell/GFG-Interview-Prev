@@ -3,7 +3,6 @@ class syncThread {
     synchronized void speedUp(){
         System.out.println("incrementing speed");
         speed++;
-     
     }
     public static void main(String args[]){
         syncThread s1=new syncThread(); 
